@@ -7,7 +7,7 @@ function Header() {
         <section className="header">
                 <div className="container">
                     <div className="head-nav">
-                        <Link to='/'><h1 className='name'>Mahipal <span className='surname'>Singh</span></h1></Link>
+                        <Link to='/mahipalsingh'><h1 className='name'>Mahipal <span className='surname'>Singh</span></h1></Link>
                         <ul className="navlist">
                             <li className="navitem">
                                 <Link to='/experience'>Experience</Link>
@@ -29,12 +29,6 @@ function Header() {
             </section>
             <Outlet/>
             <Footer/>
-
-
-
-
-
-            
     </>
   )
 }
