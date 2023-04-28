@@ -6,3 +6,39 @@
         }
     }
 }
+.skills{
+    background: #161616;
+    padding: 100px 0;
+    border-bottom: 1px solid #f5f5f5;
+    .lang-list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 30px;
+        row-gap: 30px;
+        .lang{
+            width: 28%;
+            border: 2px solid #70FF00;
+            padding: 15px;
+            border-radius: 5px;
+            img{
+                width: 150px;
+                margin: 0 0 15px;
+            }
+            .lang-detail{
+                text-align: justify;
+                .lang-desc{
+                    color: #f2f2f2;
+                }
+                .lang-exp{
+                    color: #70FF00;
+                    font-size: 18px;
+                    line-height: 24px;
+                    padding: 10px 0 0 ;
+                    
+                }
+            }
+        }
+    }
+}
