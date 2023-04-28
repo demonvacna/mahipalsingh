@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/mahipalsingh/static/css/main.b3a119b1.css",
-    "main.js": "/mahipalsingh/static/js/main.729441da.js",
+    "main.css": "/mahipalsingh/static/css/main.2d6ac5f5.css",
+    "main.js": "/mahipalsingh/static/js/main.4a17de36.js",
+    "static/media/javascript.png": "/mahipalsingh/static/media/javascript.029ea8c983e065cf5a75.png",
     "static/media/young.png": "/mahipalsingh/static/media/young.36c5dcab76f716e1d235.png",
+    "static/media/jquery.png": "/mahipalsingh/static/media/jquery.eb105fbbfb1112c72276.png",
+    "static/media/html.png": "/mahipalsingh/static/media/html.fb627e76c05a9a6c7444.png",
+    "static/media/css.png": "/mahipalsingh/static/media/css.ea63097553654f07d95c.png",
     "static/media/circle.png": "/mahipalsingh/static/media/circle.9b290f144369a349b2b7.png",
-    "static/media/fbspllogo.svg": "/mahipalsingh/static/media/fbspllogo.01e5c5f8e2be6665dc7772072c9a0084.svg",
+    "static/media/SCSS.png": "/mahipalsingh/static/media/SCSS.6747d5c68a381e29fc69.png",
     "index.html": "/mahipalsingh/index.html",
-    "main.b3a119b1.css.map": "/mahipalsingh/static/css/main.b3a119b1.css.map",
-    "main.729441da.js.map": "/mahipalsingh/static/js/main.729441da.js.map"
+    "main.2d6ac5f5.css.map": "/mahipalsingh/static/css/main.2d6ac5f5.css.map",
+    "main.4a17de36.js.map": "/mahipalsingh/static/js/main.4a17de36.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3a119b1.css",
-    "static/js/main.729441da.js"
+    "static/css/main.2d6ac5f5.css",
+    "static/js/main.4a17de36.js"
   ]
 }
