@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 .header{
     background: #161616;
     position: fixed;
@@ -8,6 +9,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        a {
+            -webkit-tap-highlight-color: transparent !important;
+        }
         .name{
             font-weight: 700;
             font-size: 50px;
@@ -17,6 +21,9 @@
             color: #F2F2F2;
             }
         }
+        .navigation{
+            display: flex;
+            align-items: center;
         .navlist{
             display: flex;
             justify-content: space-around;
@@ -27,11 +34,15 @@
             color: #fff;
             cursor: pointer;
             .navitem{
-                padding: 20px;
+                padding: 20px 0;
                 a{
                     color: #f2f2f2;
+                    padding: 20px;
+                    -webkit-tap-highlight-color: transparent !important;
+                    
                     &:hover{
                         color: #70FF00;
+                        border-bottom: 1px solid #70FF00;
                     }
                 }
                 &:hover{
@@ -48,22 +59,20 @@
                 line-height: 24px;  
                 font-weight: 500;
                 background: transparent;
-                padding: 10px;
+                padding: 20px;
                 color: #fff;
                 cursor: pointer;
                 text-decoration: none;
                 &:hover{
                     color: #70FF00;
-                }
-                &.contect{
-                    border: 2px solid rgba(112, 255, 0, 0.55);
-                    border-radius: 3px;
-                    &:hover{
-                        background: #70FF00;
-                        color: #F2F2F2;
-                    }
-                }    
+                    border-bottom: 1px solid #70FF00;
+                }   
             }
+        }
+
+        }
+        .hamburger{
+            display: none;
         }
     }
 }
@@ -262,5 +271,223 @@
     .container{
         width: 1200px;
         padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner{
+        padding: 100px 0 20px;
+        .banner-details{
+            .left{
+                .circle{
+                    top: -3px;
+                    left: -69px;
+                    width: 355px;
+                }
+            }
+        }
+    }
+    .header .head-nav .name{
+        font-size: 34px ;
+    }
+    .google-map-code{
+        iframe{
+            width: 600px;
+        }
+    }
+    .education .timeline{
+        align-items: stretch;
+    }
+}
+@media only screen and (max-width: 768px){
+    .title{
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header {
+        .head-nav {
+        .navigation{
+            background: #000;
+            width: 65%;
+            height: 100vh;
+            right: 0;
+            top: 0;
+            position: absolute;
+            transform: translateX(100%);
+            transition:all 0.4s ease-in-out;
+            overflow: none ;
+            .navlist{
+                width: 100%;
+                flex-direction: column;
+                position: absolute;
+                top: 0;
+                left: 0;
+                .navitem{
+                    border-bottom: 1px solid #70FF00;
+                }
+            }
+            .btns{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 190px;
+                left: 0px;
+                .btn-nav{
+                    border-bottom: 1px solid #70FF00;
+                }
+            }
+            &.close{
+                transform: translateX(0%);
+            }
+        }
+        .hamburger{
+            display: block;
+            color: #70FF00;
+            svg{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+    .overlay{
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.7;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        z-index: 98;
+        &.open{
+            display: block;
+        }
+    }
+    .banner{
+        padding: 100px 0 35px;
+        .banner-details{
+            .left{
+                .circle{
+                    top: 0px;
+                    left: -48px;
+                    width: 260px;
+                }
+            }
+            .right{
+                .name{
+                    font-size: 20px;
+                    line-height: 24px;                
+                }
+                .main{
+                    font-size: 34px;
+                    line-height: 40px;
+                    margin: 0px 0 10px;
+                }
+                .detail{
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .about{
+        padding: 50px 0;
+    }
+    .education{
+            padding: 50px 0;
+    }
+    .google-map-code{
+        iframe{
+            width: 350px;
+        }
+    }
+}
+@media only screen and (max-width:767px ){
+    .title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .header{
+        .head-nav{
+            .name{
+                font-size: 24px;
+            }
+            .navigation{
+                .navlist{
+                    .navitem{
+                        padding: 10px;
+                        a{
+                            padding: 10px 0;
+                        }
+                    }
+                }
+                .btns{
+                    top: 135px;
+                    .btn-nav{
+                        padding: 10px;
+                    }
+                }
+            }
+         
+        }
+    }
+    .banner {
+        .banner-details {
+            display: block;
+            .left {
+                position: initial;
+                margin: auto;
+                .mahi{
+                    width: 100%;
+                }
+                .circle{
+                    display: none;
+                }
+            }
+            .right{
+                text-align: center;
+                .hello{
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .about{
+        .about-detail{
+            display: block;
+            .description-detail{
+                width: 100%;
+                margin:  0 0 20px;
+            }
+            .frontend{
+                width: 100%;
+                padding: 10px 0;
+            }
+        }
+    }
+    .education{
+        .timeline{
+            flex-direction: column;
+            .course{
+            width: 94% ;
+            padding: 10px;
+            }
+        }
+    }
+    .footer{
+        .footer-detail{
+            flex-direction: column-reverse;
+            .contact-detail{
+                padding: 20px 0;
+            }
+        }
+    }
+    .google-map-code{
+        iframe{
+            width: 100%;
+        }
     }
 }

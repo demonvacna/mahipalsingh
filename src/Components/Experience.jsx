@@ -1,5 +1,4 @@
 import React from 'react'
-import FBSPL from '../images/fbspllogo.svg'
 import '../css/Experience.scss';
 
 function Experience() {

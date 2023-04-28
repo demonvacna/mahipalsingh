@@ -5,8 +5,8 @@ import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import './css/Home.scss';
-import './css/Experience.scss';
 import {createBrowserRouter, createRoutesFromElements, Route, Router, RouterProvider } from "react-router-dom";
+import { useState } from 'react';
 
 
 function App() {
