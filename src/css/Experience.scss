@@ -1,3 +1,31 @@
-.experience, .skills, .projects{
-    padding: 200px 0;
+.banner{
+    padding: 164px 0 100px;
+    .container{
+        .title{
+            text-align: center;
+        }
+    }
+}
+
+.companies{
+    background: #161616;
+    padding: 100px 0 ;
+    border-bottom: 1px solid #f5f5f5;
+    .company{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid #70FF00;
+        border-radius: 5px;
+        margin: 0 0 40px;
+        padding: 15px;
+        .experience-detail{
+            .company-name, .position, .time-period, .detailed{
+                color: #F2F2F2;
+                .title{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
 }
