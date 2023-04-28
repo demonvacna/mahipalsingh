@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mahipalsingh/static/css/main.2d6ac5f5.css",
-    "main.js": "/mahipalsingh/static/js/main.4a17de36.js",
+    "main.css": "/mahipalsingh/static/css/main.bfe6d3cd.css",
+    "main.js": "/mahipalsingh/static/js/main.e6ea104e.js",
     "static/media/javascript.png": "/mahipalsingh/static/media/javascript.029ea8c983e065cf5a75.png",
     "static/media/young.png": "/mahipalsingh/static/media/young.36c5dcab76f716e1d235.png",
     "static/media/jquery.png": "/mahipalsingh/static/media/jquery.eb105fbbfb1112c72276.png",
@@ -10,11 +10,11 @@
     "static/media/circle.png": "/mahipalsingh/static/media/circle.9b290f144369a349b2b7.png",
     "static/media/SCSS.png": "/mahipalsingh/static/media/SCSS.6747d5c68a381e29fc69.png",
     "index.html": "/mahipalsingh/index.html",
-    "main.2d6ac5f5.css.map": "/mahipalsingh/static/css/main.2d6ac5f5.css.map",
-    "main.4a17de36.js.map": "/mahipalsingh/static/js/main.4a17de36.js.map"
+    "main.bfe6d3cd.css.map": "/mahipalsingh/static/css/main.bfe6d3cd.css.map",
+    "main.e6ea104e.js.map": "/mahipalsingh/static/js/main.e6ea104e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d6ac5f5.css",
-    "static/js/main.4a17de36.js"
+    "static/css/main.bfe6d3cd.css",
+    "static/js/main.e6ea104e.js"
   ]
 }
